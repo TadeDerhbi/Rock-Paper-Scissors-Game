@@ -36,7 +36,8 @@
 //   alert("No problem. Come back for a Game Later. ")
 // }
 
-
+// the above code works perfectly, this is just a more efficient review of how to include a 
+//while loop to avoid having the page reload itself once the round of game is completed. 
 let playGame = confirm("Shall we begin a game of 'Rock, Paper, Scissors'?")
 if (playGame){
     while(playGame){
